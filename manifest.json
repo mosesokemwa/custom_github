@@ -1,0 +1,19 @@
+{
+	"name": "Github Color",
+	"short_name": "gihub_color",
+	"description": "Change header of my github",
+	"version": "0.1",
+	"author": "Peter Muturi",
+	"browser_action": {
+			"default_icon": "icon.png"
+	},
+	"permissions": ["https://github.com/*", "http://github.com/*"],
+	"content_scripts": [
+		{
+			"matches": ["https://github.com/*", "http://github.com/*"],
+			"css": ["github.css"],
+			"run_at": "document_start"
+		}
+	],
+	"manifest_version": 2
+}
