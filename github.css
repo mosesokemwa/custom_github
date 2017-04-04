@@ -1,10 +1,6 @@
 .header {
-	background: rgba(69,97,0,1);
-background: -moz-linear-gradient(left, rgba(69,97,0,1) 0%, rgba(55,77,0,1) 44%, rgba(44,61,0,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(69,97,0,1)), color-stop(44%, rgba(55,77,0,1)), color-stop(100%, rgba(44,61,0,1)));
-background: -webkit-linear-gradient(left, rgba(69,97,0,1) 0%, rgba(55,77,0,1) 44%, rgba(44,61,0,1) 100%);
-background: -o-linear-gradient(left, rgba(69,97,0,1) 0%, rgba(55,77,0,1) 44%, rgba(44,61,0,1) 100%);
-background: -ms-linear-gradient(left, rgba(69,97,0,1) 0%, rgba(55,77,0,1) 44%, rgba(44,61,0,1) 100%);
-background: linear-gradient(to right, rgba(69,97,0,1) 0%, rgba(55,77,0,1) 44%, rgba(44,61,0,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#456100', endColorstr='#2c3d00', GradientType=1 );
+	background: #3f0000 !important;
+}
+.btn-primary {
+	background: #720000 !important;
 }
