@@ -1,6 +1,22 @@
-.header {
-	background: #3f0000 !important;
+.Header {
+    background: #4f0072 !important;
 }
-.btn-primary {
-	background: #720000 !important;
+.HeaderNavlink{
+    color: rgba(255,255,255, 0.9) !important;
+}
+
+.btn-primary, .btn {
+    background: #4f0072 !important;
+    color: #ffffff !important;
+}
+
+h3 .Counter {
+    background-color: #E1BEE7 !important;
+    color: #000000 !important;
+}
+
+.dropdown-menu {
+    background: #F3E5F5 !important;
+    border-radius: 5px !important;
+    color: white !important;
 }
